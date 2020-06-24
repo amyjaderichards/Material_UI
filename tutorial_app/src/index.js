@@ -1,13 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
-function App() {
-    return (
-        <div>
-            <h1>Hi Amy</h1>
-        </div>
-    )
-}
+import App from "./components/App"
 
 
 ReactDOM.render(<App />, document.getElementById("root"));
