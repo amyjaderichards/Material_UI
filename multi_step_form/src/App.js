@@ -1,11 +1,12 @@
-import React from "react"
+import React from "react";
+import { UserForm } from "./components/UserForm";
 
-function App() {
+const App = () => {
     return (
-        <div>
-            Hello Amy
+        <div className="App">
+            <UserForm />
         </div>
     )
 }
 
-export default App
+export default App;
